@@ -1473,4 +1473,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C5P14:END-->
+<!--WY-C5P15:BEGIN-->
+<style id="wy-c5p15-css">
+.c5p15-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c5p15-fabbox.show{display:block;}
+.c5p15-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c5p15-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c5p15-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c5p15-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c5p15-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c5p15-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c5p15-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c5p15-modal.open{display:flex;}
+.c5p15-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c5p15-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c5p15-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c5p15-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c5p15-close:hover{background:#e3d5b8;}
+.c5p15-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c5p15-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c5p15-tbl th,.c5p15-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c5p15-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c5p15-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c5p15-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c5p15-tbl b{color:#8b2500;}
+.c5p15-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c5p15-note b{color:#8b2500;}
+@media(max-width:900px){.c5p15-fabbox{right:14px;}.c5p15-tbl{font-size:11.5px;}.c5p15-card{padding:26px 14px 16px;}}
+</style>
+<div class="c5p15-fabbox" id="c5p15Box"><button class="c5p15-btn" id="c5p15Btn" type="button" aria-label="開啟全景總表"><span class="c5p15-ic">▦</span><span class="c5p15-ls"><span class="c5p15-l1">本品 · 中觀解構十二因緣</span><span class="c5p15-l2">巧說因緣法 · 相續生無明盡無所入</span></span></button></div><div class="c5p15-modal" id="c5p15Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c5p15-card"><button class="c5p15-close" id="c5p15Close" type="button" aria-label="關閉">×</button><h3>卷五·第十五品 中觀解構十二因緣 · 全景總表</h3><p class="sub">卷五・第十五品｜三事煩惱業苦更互為因緣・十二支逐支流轉犢子識母・還滅門盡的空性・兩重巧義不可盡薩婆若</p><table class="c5p15-tbl"><caption>一、三事三世與動態迴圈（世俗諦宏觀建構）</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>三事本體論</td><td>無明愛取三事名煩惱；行有二事名為業；餘七分名為體事——十二支收攝為三大基礎元素，先掌握三事才不會在十二名相中迷路</td></tr><tr><td>三世分配</td><td>初二（無明行）過去世攝；中八（識名色六入觸受愛取有）現前世攝；後二（生老死）未來世攝——業力不被生死所阻，每一生皆握有改寫劇本的機會</td></tr><tr><td>展轉更互為因緣</td><td>煩惱業因緣業苦因緣苦苦因緣苦煩惱因緣——非A到B的單向直線，而是具備自我增強特性的封閉迴圈，若不從觀智外破除無法自行停止</td></tr><tr><td>迴圈病理</td><td>苦苦因緣（體事果報直接引發身心苦楚）+苦煩惱因緣（承受苦果時產生心理反彈回流到煩惱道）——苦不但自我延伸還回頭強化煩惱種子</td></tr><tr><td>三事分類矩陣</td><td>煩惱道無明愛取（主觀染污動力）・業道行有（客觀造作勢能）・苦道七支（果報體事）——主動煩惱僅三支業僅二支其餘七支皆被動果報</td></tr></tbody></table><table class="c5p15-tbl"><caption>二、十二支逐支解構（流轉門）</caption><thead><tr><th>支</th><th>內容</th></tr></thead><tbody><tr><td>無明·行</td><td>過去世一切煩惱是名無明（總攝性代號）；從無明生業能作世界果故名為行（塑造下一期身心的龐大勢能）</td></tr><tr><td>識·名色·六入</td><td>從行生垢心初身因如犢子識母自相識故名為識（無須學習的我執雛型）；共生無色四陰及所住色名名色（心物聚合）；名色中生六情名六入（感知介面）</td></tr><tr><td>觸·受</td><td>情塵識合是名為觸（主客體與認知交會）；從觸生受——從純粹身心結構跨入有經驗內容的現象界，受本身尚是被動中性</td></tr><tr><td>愛·取（樞紐）</td><td>受中心著是名渴愛（被動承受墮入主觀心著）；渴愛因緣求是名取（外化為實際造作追求）——因果鏈在此質變，是修行者唯一可截斷輪迴的節點</td></tr><tr><td>有·生·老死</td><td>從取後世因緣業是名有（業力種子）；從有還受後世五眾是名生；從生五眾熟壞是名老死，生憂悲哭泣眾苦和合集——閉環真正閉合</td></tr></tbody></table><table class="c5p15-tbl"><caption>三、還滅門的開啟與兩重巧義</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>一心觀諸法實相清淨</td><td>則無明盡，無明盡故行盡乃至眾苦和合集皆盡——破除輪迴不在逐一消滅十二支而在認知模式的根本轉換，觀即見其本無自性</td></tr><tr><td>盡的非斷滅空性</td><td>無明盡故行盡是連鎖反應而非單獨消滅——行因無明的實體性被照破而自動失去存在依據，整座建築只要底層自性被照破上層自然崩塌</td></tr><tr><td>第一重巧</td><td>方便不著邪見，為人演說——菩薩深知諸法性空卻不壞假名，即俗而真因真立俗，徹底避開常見與斷見兩端</td></tr><tr><td>第二重巧</td><td>斷法愛心不著知實相——連對治無明的十二因緣觀本身也不執取，十二因緣觀是渡河之筏，一旦到岸便當放下，否則舟筏反成新繫縛</td></tr><tr><td>般若終極昇華</td><td>癡如虛空不可盡，行乃至眾苦和合集如虛空不可盡；為捨癡際應無所入；作是觀十二因緣起者則為坐道場得薩婆若——本無可盡本無所生</td></tr></tbody></table><p class="c5p15-note">《大智度論》對十二因緣的解析展現佛教哲學的巔峰架構：不廢世俗的極致嚴謹（精準建構三事三世的相續流轉），不礙勝義的極致空靈（以實相清淨與如虛空解構一切法執）。<b>世俗諦的鎖鏈描寫得越嚴密，勝義諦之空就越顯其「不壞假名而說實相」的巧妙</b>——兩者交徹無礙，即成就菩薩無所住而生薩婆若的大乘之道，此即全品標題「巧說因緣法」的最終答案。</p></div></div>
+<script id="wy-c5p15-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c5p15Btn"),BOX=document.getElementById("c5p15Box"),MODAL=document.getElementById("c5p15Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=14;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#ytFab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c5p15Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C5P15:END-->
 </body></html>
