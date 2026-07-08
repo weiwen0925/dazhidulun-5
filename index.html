@@ -1049,4 +1049,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C5P6:END-->
+<!--WY-C5P7:BEGIN-->
+<style id="wy-c5p7-css">
+.c5p7-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c5p7-fabbox.show{display:block;}
+.c5p7-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c5p7-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c5p7-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c5p7-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c5p7-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c5p7-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c5p7-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c5p7-modal.open{display:flex;}
+.c5p7-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c5p7-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c5p7-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c5p7-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c5p7-close:hover{background:#e3d5b8;}
+.c5p7-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c5p7-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c5p7-tbl th,.c5p7-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c5p7-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c5p7-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c5p7-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c5p7-tbl b{color:#8b2500;}
+.c5p7-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c5p7-note b{color:#8b2500;}
+@media(max-width:900px){.c5p7-fabbox{right:14px;}.c5p7-tbl{font-size:11.5px;}.c5p7-card{padding:26px 14px 16px;}}
+</style>
+<div class="c5p7-fabbox" id="c5p7Box"><button class="c5p7-btn" id="c5p7Btn" type="button" aria-label="開啟全景總表"><span class="c5p7-ic">▦</span><span class="c5p7-ls"><span class="c5p7-l1">本品 · 中觀語業二諦論</span><span class="c5p7-l2">不綺語言必信受 · 業果力學到大悲方便</span></span></button></div><div class="c5p7-modal" id="c5p7Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c5p7-card"><button class="c5p7-close" id="c5p7Close" type="button" aria-label="關閉">×</button><h3>卷五·第七品 中觀語業二諦論 · 全景總表</h3><p class="sub">卷五・第七品｜業果力學誠信業曲線・世俗諦絕對性三輪體空・大悲方便言必信受・語業緣起不常不斷</p><table class="c5p7-tbl"><caption>一、業果力學——不誠信業的運作機制</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>經文核心</td><td>言必信受，天人龍阿修羅及一切大人皆信受其語，是不綺語報故——反之諸綺語報者雖有實語一切人皆不信受</td></tr><tr><td>綺語四面向</td><td>戲論（語言概念無限增生執取）・非實（背離法相）・無義（缺乏解脫利益）・散亂（心智失焦）——每次無根言說都在為實有想補燃料</td></tr><tr><td>知識業力失衡</td><td>多聞見（知識量技巧形式）⚖不誠信業（無形語業宿因）——業力的權重在世俗現象界徹底凌駕於資訊之上</td></tr><tr><td>語業跨法界穿透</td><td>天人龍阿修羅皆信受，因清淨語業攜帶法界共振頻率，不依賴特定法界感官結構而直接觸發每個心識本有的明——信受是業緣相應非語意理解</td></tr><tr><td>餓鬼道果報隱喻</td><td>火炎從口出四向發大聲——語言徹底失去傳遞意義的本質，退化為純粹業火燃燒，是綺語業力在異熟果上的精確具象化</td></tr></tbody></table><table class="c5p7-tbl"><caption>二、中觀二諦——從業果不虛到三輪體空</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>世俗諦絕對性</td><td>龍樹極度強調口過報，正是防範將空誤解為無因果的惡取空——勝義諦不取消世俗諦而是內建於世俗諦之上</td></tr><tr><td>語言矩陣</td><td>綺語＝執實有自性×無義（批判主要靶子）；凡夫實語＝執實有自性×有義（仍陷自性見）；菩薩說法＝知幻無自性×有義契理（指月之指的理想目標）</td></tr><tr><td>實語悖論</td><td>雖有實語一切人皆不信受——語言內容+清淨發心+業力宿因→生起效用；缺乏清淨業力支撐的實語，在中觀看來缺乏生起效用的緣起條件</td></tr><tr><td>尸羅到般若</td><td>不作綺語（戒）→至誠心無戲論（定）→現觀實相（慧）——六波羅蜜中戒是慧基，語言與心念的同頻打地基方能承載勝義諦的現觀</td></tr><tr><td>語業三輪體空</td><td>說話者空（無我相自我炫耀）+所說之語空（知語言為假名不住法相）+聽受者空（觀眾生如幻無眾生相）＝言必信受的完美緣起顯現</td></tr></tbody></table><table class="c5p7-tbl"><caption>三、菩薩道實踐——大悲方便與語業緣起</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>中道辯證</td><td>極端一切皆空→沉默（惡取空）；極端執著度眾→法執；中道以大悲心為第三支點，洞悉語言空性卻願重返戲論海廣多聞在大眾說法</td></tr><tr><td>重返世俗三層螺旋</td><td>凡夫世俗語言（夾雜綺語）↑勝義諦空性體驗（離言絕慮）↑菩薩重返世俗（大悲方便，欲廣多聞為人信受，建立度化所需信根）</td></tr><tr><td>至誠的中觀再定義</td><td>契合緣起（不違世俗因果倫理）∩不違空性（洞見無自性不生戲論）——兩圈交集才是中觀語境下的至誠，同時具備世俗效用與勝義清淨</td></tr><tr><td>緣起不常不斷範本</td><td>語音即生即滅（不常）卻能跨越時空引發信受業果（不斷）——語業是《中論》八不緣起最完美最易觀察的日常展現</td></tr><tr><td>前中後三段邏輯</td><td>前邏輯業果不虛（綺語→餓鬼果報→不誠信業）・核心邏輯自性本空（破實語悖論→三輪體空）・後邏輯大悲方便（為人信受→引導至無言）</td></tr></tbody></table><p class="c5p7-note">在空性的凝視下，每一句真實語都是菩薩重返世俗的慈悲錨點。語業不僅是倫理過失的問題，更是<b>認識論無明</b>的問題——語言是人類建構自性見最強大的工具。中觀不是讓人沉默，而是讓菩薩有能力在深知語言本空的前提下，依然願意回到世俗諦的戲論之海，為眾生建立信根，以言語引導至無言之境。</p></div></div>
+<script id="wy-c5p7-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c5p7Btn"),BOX=document.getElementById("c5p7Box"),MODAL=document.getElementById("c5p7Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=6;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#ytFab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c5p7Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C5P7:END-->
 </body></html>
