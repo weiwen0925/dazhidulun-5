@@ -1261,4 +1261,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C5P10:END-->
+<!--WY-C5P11:BEGIN-->
+<style id="wy-c5p11-css">
+.c5p11-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c5p11-fabbox.show{display:block;}
+.c5p11-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c5p11-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c5p11-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c5p11-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c5p11-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c5p11-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c5p11-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c5p11-modal.open{display:flex;}
+.c5p11-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c5p11-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c5p11-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c5p11-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c5p11-close:hover{background:#e3d5b8;}
+.c5p11-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c5p11-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c5p11-tbl th,.c5p11-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c5p11-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c5p11-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c5p11-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c5p11-tbl b{color:#8b2500;}
+.c5p11-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c5p11-note b{color:#8b2500;}
+@media(max-width:900px){.c5p11-fabbox{right:14px;}.c5p11-tbl{font-size:11.5px;}.c5p11-card{padding:26px 14px 16px;}}
+</style>
+<div class="c5p11-fabbox" id="c5p11Box"><button class="c5p11-btn" id="c5p11Btn" type="button" aria-label="開啟全景總表"><span class="c5p11-ic">▦</span><span class="c5p11-ls"><span class="c5p11-l1">本品 · 度甚深法忍</span><span class="c5p11-l2">五重階梯 · 緣起邪見解脫諸法除智力</span></span></button></div><div class="c5p11-modal" id="c5p11Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c5p11-card"><button class="c5p11-close" id="c5p11Close" type="button" aria-label="關閉">×</button><h3>卷五·第十一品 度甚深法忍 · 全景總表</h3><p class="sub">卷五・第十一品｜五重復次緣起法離邪見解脫門諸法相除智力・熱氣見黃水精隨色・四句皆離忍度重新定義</p><table class="c5p11-tbl"><caption>一、認知淨化階梯五階總覽</caption><thead><tr><th>階</th><th>內容</th></tr></thead><tbody><tr><td>命題三分</td><td>度（得甚深法具足滿無所礙）・甚深法（客觀法理或主觀境界？）・忍（絕對信受非情緒壓抑）——五重復次是拾級而上的階梯而非並列定義</td></tr><tr><td>第一階·緣起法</td><td>十二因緣是名甚深法——凡是依緣而起者必無獨立自存的自性，緣起即性空；凡夫見其生滅而覺淺，佛見其無生無滅方顯甚深</td></tr><tr><td>第二階·離邪見</td><td>依過去未來世生六十二邪見網永離——六十二見共同結構是把自我世界投射到時間軸上；讚佛甚小若讚戒清淨離欲，實讚佛須讚甚深難解難知法</td></tr><tr><td>第三階·解脫門</td><td>空無相無作三解脫門——從法無自性契入空門，從不取相契入無相門，從無所願求契入無作門；佛拒絕將甚深神秘化重定義為可解析的空無相無作法理</td></tr><tr><td>第四階·諸法相</td><td>解一切諸法相實不可破不可動——有自性者有生滅故可破可動，諸法無自性故無生無滅故不可破不可動，空與金剛於此會通為一</td></tr><tr><td>第五階·除智力</td><td>除內心想智力，但定心諸法清淨實相中住——最深層障礙不再是外在邪見而是主觀認知工具本身，想與智力如濾鏡夾在能見與所見之間</td></tr></tbody></table><table class="c5p11-tbl"><caption>二、諸法相的金剛屬性與除智力二喻</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>金剛悖論</td><td>既說空又說不可破不可動豈非自相矛盾？——解答在生滅與自性的連動：無自性→無生無滅→不可破不可動，正因空才談不上破壞，正因無生才無所謂動搖</td></tr><tr><td>熱氣見黃喻</td><td>譬如熱氣盛非黃見黃，心想智力故於諸法轉觀是名淺法——外境干擾疊加內心想智力運作，共同產生扭曲幻相，凡夫誤認幻相為真實</td></tr><tr><td>慧眼清淨</td><td>人眼清淨無熱氣如實見黃是黃，除內心想智力慧眼清淨見諸法實相——還原不是獲得新東西而是去除附加物，濾鏡除遣實相自然顯露</td></tr><tr><td>水精隨色喻</td><td>真水精黃物著中則隨作黃色青赤白色皆隨色變——心性本淨如水精，隨客塵染污（想智力攀緣外境）而現異相，異相是被製造而非被發現</td></tr><tr><td>四句皆離</td><td>觀諸法實相非空非不空不有非不有——突破二元對立，不是第五種立場，而是對以語言邏輯框定實相這件事本身的徹底放下</td></tr></tbody></table><table class="c5p11-tbl"><caption>三、忍與度的重新定義及進路總覽</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>重定義忍</td><td>是法中深入不轉無所罣礙，是名度深法忍——忍非壓抑忍耐，而是對甚深法的絕對確信，是認知淨化完成後的穩定態</td></tr><tr><td>重定義度</td><td>度名得甚深法具足滿無所礙得度彼岸，是名為度——彼岸非空間遙遠他方，而是當下認知淨化之後的無礙境界，度是轉依非位移</td></tr><tr><td>五階總覽</td><td>緣起法破自性見（客觀現象）→離邪見斬斷時空概念網（主觀見解）→解脫門確立空性實踐道→諸法相證成無生金剛體→除智力終極淨化離四句</td></tr><tr><td>淺深之別</td><td>自始至終不在法體，而在觀者見地的徹底程度——同一緣起法，凡夫見其淺佛見其深；此原則貫穿全品五階</td></tr><tr><td>與唯識對話</td><td>想智力恰是中觀與唯識交鋒的接點——中觀重在破，揭穿遍計所執性；唯識重在析，分析依他起性緣生機制，為後世留下深邃對話空間</td></tr></tbody></table><p class="c5p11-note">五重復次由「客觀現象」起（緣起法），歷「主觀見解」（離邪見）、「實踐方法」（解脫門）、「本體實相」（諸法相），終於「認知工具」自身的淨化（除智力）。<b>究竟真實唯在無所得中</b>——「度甚深法忍」五字經五階解構，已顯為一部從緣起到究竟般若的認知淨化進路，願讀者循階而上，於無所得處得見諸法實相。</p></div></div>
+<script id="wy-c5p11-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c5p11Btn"),BOX=document.getElementById("c5p11Box"),MODAL=document.getElementById("c5p11Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=10;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#ytFab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c5p11Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C5P11:END-->
 </body></html>
