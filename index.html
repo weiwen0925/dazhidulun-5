@@ -784,4 +784,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C5P1:END-->
+<!--WY-C5P2:BEGIN-->
+<style id="wy-c5p2-css">
+.c5p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c5p2-fabbox.show{display:block;}
+.c5p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c5p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c5p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c5p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c5p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c5p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c5p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c5p2-modal.open{display:flex;}
+.c5p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c5p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c5p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c5p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c5p2-close:hover{background:#e3d5b8;}
+.c5p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c5p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c5p2-tbl th,.c5p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c5p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c5p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c5p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c5p2-tbl b{color:#8b2500;}
+.c5p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c5p2-note b{color:#8b2500;}
+@media(max-width:900px){.c5p2-fabbox{right:14px;}.c5p2-tbl{font-size:11.5px;}.c5p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c5p2-fabbox" id="c5p2Box"><button class="c5p2-btn" id="c5p2Btn" type="button" aria-label="開啟全景總表"><span class="c5p2-ic">▦</span><span class="c5p2-ls"><span class="c5p2-l1">本品 · 菩薩功德釋論</span><span class="c5p2-l2">名字菩薩到實功德 · 陀羅尼三昧等忍</span></span></button></div><div class="c5p2-modal" id="c5p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c5p2-card"><button class="c5p2-close" id="c5p2Close" type="button" aria-label="關閉">×</button><h3>卷五·第二品 菩薩功德釋論第十 · 全景總表</h3><p class="sub">卷五・第二品｜三事立綱陀羅尼三昧等忍・名字菩薩到實功德・四大德用・逆順五重拆解・以中觀為骨以總持為行</p><table class="c5p2-tbl"><caption>一、三事立綱與名實之辨（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>經文標舉</td><td>《般若經》「皆得陀羅尼及諸三昧，行空無相無作，已得等忍」——龍樹釋此三事：陀羅尼、三昧、等忍</td></tr><tr><td>破題之意</td><td>讚歎並非諂媚，而是以實證名——三事是「實功德」的具體清單，用以引發眾生對甚深清淨法之信</td></tr><tr><td>名字菩薩</td><td>世俗諦假名——「摩訶薩埵」僅為先說之名字，若執此名便落於「我是菩薩」之倒</td></tr><tr><td>實功德菩薩</td><td>勝義諦實相——必須具備陀羅尼、三昧、等忍三事真實修證，方能證明其「大」，此即從假名到實相的實證跨越</td></tr><tr><td>中觀三門對應</td><td>三事各對應中觀一門——陀羅尼是緣起攝持（因）、三昧是畢竟空安住（體）、等忍是八不中道起用（果），三事一體缺一則全體傾倒</td></tr></tbody></table><table class="c5p2-tbl"><caption>二、陀羅尼體性、德用與三種次第</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>雙元體性</td><td>能持——集種種善法不散不失，如完器盛水；能遮——惡不善根心生能遮令不生，二義合為防非止惡攝持善法的自動導航系統</td></tr><tr><td>空性底層</td><td>能持者空故能無盡攝持，心體本空無固定邊界；能遮者空故不墮二地坑，不執著實有的空，安住不住生死不住涅槃的中道</td></tr><tr><td>四大德用</td><td>過耳不忘（念力）・任運常隨（如瘧病鬼著律儀三喻示任運自動）・內防退轉（如慈父不令墮二乘坑）・外禦魔障（如須彌山風吹不動）</td></tr><tr><td>三種陀羅尼</td><td>聞持（世俗諦攝持·聞慧）→分別知（二諦交融分別·思慧）→入音聲（勝義諦自在·修慧，聞讚不喜聞謗不瞋）——聞思修三慧次第</td></tr><tr><td>五百陀羅尼門</td><td>寂滅、無邊旋、隨地觀等略說五百，「五百」表無量之約言，綱舉目張回應「諸菩薩皆得陀羅尼」</td></tr></tbody></table><table class="c5p2-tbl"><caption>三、逆順二境十重拆解與全品總結</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>逆境五重</td><td>總持定力→根塵分離破我相→語言無常緣起無定→現象物理化大悲轉化→畢竟空寂三輪體空——由現象拆解走向本質證悟</td></tr><tr><td>順境五重</td><td>供敬無常→讚功德非讚我→如地不喜緣起觀→護念他人福德觀→法空如幻唯佛應喜——實讚亦不喜方是真功夫</td></tr><tr><td>中觀骨架重寫</td><td>逆境對應五蘊非實、十二處緣起、諸行無常、四大假合、三輪體空；順境對應緣起生滅、人法兩空、無作者受者、菩提迴向、空性判教</td></tr><tr><td>核心心法</td><td>事相歷歷分明能持，不廢世俗顯現；本性如如不動能遮，契入絕待境界——於事相歷歷分明，於本性如如不動</td></tr><tr><td>全品總結</td><td>中觀為骨：若無畢竟空，陀羅尼成執著記憶、三昧成靜態枯止、等忍成壓抑強忍；總持為行：若無三事為體，中觀亦只是談空說有的戲論</td></tr></tbody></table><p class="c5p2-note">全品前五章順經文展陳「陀羅尼、三昧、等忍」三事之相，後六章以中觀「緣起—畢竟空—八不中道」回看三事之骨；相不離骨，骨不離相。<b>以中觀為骨，以總持為行</b>——真實的慈悲與偉大，必須建構在甚深清淨的空性實證上，此即「菩薩摩訶薩」之真義，亦即般若波羅蜜法門之完整輪廓。</p></div></div>
+<script id="wy-c5p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c5p2Btn"),BOX=document.getElementById("c5p2Box"),MODAL=document.getElementById("c5p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#ytFab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c5p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C5P2:END-->
 </body></html>
