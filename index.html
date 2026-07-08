@@ -996,4 +996,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C5P5:END-->
+<!--WY-C5P6:BEGIN-->
+<style id="wy-c5p6-css">
+.c5p6-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c5p6-fabbox.show{display:block;}
+.c5p6-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c5p6-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c5p6-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c5p6-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c5p6-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c5p6-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c5p6-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c5p6-modal.open{display:flex;}
+.c5p6-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c5p6-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c5p6-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c5p6-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c5p6-close:hover{background:#e3d5b8;}
+.c5p6-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c5p6-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c5p6-tbl th,.c5p6-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c5p6-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c5p6-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c5p6-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c5p6-tbl b{color:#8b2500;}
+.c5p6-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c5p6-note b{color:#8b2500;}
+@media(max-width:900px){.c5p6-fabbox{right:14px;}.c5p6-tbl{font-size:11.5px;}.c5p6-card{padding:26px 14px 16px;}}
+</style>
+<div class="c5p6-fabbox" id="c5p6Box"><button class="c5p6-btn" id="c5p6Btn" type="button" aria-label="開啟全景總表"><span class="c5p6-ic">▦</span><span class="c5p6-ls"><span class="c5p6-l1">本品 · 悉是五通</span><span class="c5p6-l2">神通非神 · 性空槓桿破時空結界</span></span></button></div><div class="c5p6-modal" id="c5p6Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c5p6-card"><button class="c5p6-close" id="c5p6Close" type="button" aria-label="關閉">×</button><h3>卷五·第六品 悉是五通 · 全景總表</h3><p class="sub">卷五・第六品｜三種天辨析假號生天清淨天・空間時間量級落差・性空槓桿突破結界・五通實修次第・中觀三透鏡</p><table class="c5p6-tbl"><caption>一、三種天辨析與量級落差</caption><thead><tr><th>層次</th><th>內容</th></tr></thead><tbody><tr><td>詰問者盲區</td><td>菩薩功德勝阿羅漢辟支佛，何以讚凡夫所共小功德天眼不讚菩薩慧眼法眼佛眼？——默認同一「天」名相必然指向同一質</td></tr><tr><td>三種天</td><td>假號天（轉輪聖王等，僅具尊號）・生天（四天王天至有頂生處，依業報得，仍在輪迴）・清淨天（諸佛法身菩薩辟支佛阿羅漢，煩惱斷盡照見實相）</td></tr><tr><td>二諦交疊</td><td>假號天與生天落世俗諦，業力所繫因緣和合的有漏顯現；清淨天指向勝義諦，畢竟空性的大機大用，不被名相業力侷限</td></tr><tr><td>空間量級落差</td><td>小阿羅漢見一千至二千世界，大阿羅漢辟支佛見三千大千世界為二乘極限；法身菩薩以十方三界為場域，諸佛無量無邊等同法界本身</td></tr><tr><td>時間量級落差</td><td>大阿羅漢辟支佛知八萬大劫為極限；諸大菩薩及佛知無量劫——同名「清淨天眼」卻是有限到無限的降維打擊而非漸進差距</td></tr></tbody></table><table class="c5p6-tbl"><caption>二、性空槓桿突破時空結界</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>二乘結界成因</td><td>自了悲心（以個人解脫為極限，度生願力覆蓋半徑受限）＋微細法執（證人空未證法空，對時空實有性留有隱性認定）＝意識自建的邊界</td></tr><tr><td>修得與報得</td><td>報得——被動果報受限業力封頂，凡夫外道天人所依；修得——常憶念種種光明得，主動修證可不斷突破極限，五通中天眼從修得非報得</td></tr><tr><td>性空為槓桿</td><td>時空本空——時間空間乃因緣假立，非客觀存在的容器；一旦照見此幻，結界自然瓦解，「無量劫」不是更大的數字而是時間自性瓦解後的自然廣域</td></tr><tr><td>乘數效應</td><td>無盡大悲（度生願力）+徹悟性空（打破時空自性）＝無量無邊——非加法而是乘法，當我執法執歸零，任何有限的分子都將趨近無窮</td></tr><tr><td>法身菩薩位格</td><td>已得無生法忍，六道中不攝，但為教化眾生故以法身現於十方三界——天眼通根本不是見多少世界的問題，而是本就與法界同寬</td></tr></tbody></table><table class="c5p6-tbl"><caption>三、五通實修次第與中觀三透鏡</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>如意通三維度</td><td>能到（身能飛行移遠令近此沒彼出一念能至）・轉變（大小一多互變，外道極久不過七日諸佛自在無久近）・聖如意（不淨觀淨淨觀不淨，唯佛獨有）</td></tr><tr><td>天眼天耳通</td><td>於眼耳得色界四大造清淨色——常憶念種種光明成天眼，常憶念種種聲成天耳；神通是物質層次被意識淨化後的自然展現而非天賦灌注</td></tr><tr><td>宿命通與他心通</td><td>本事常憶念，由日月年歲胎中溯至過去世；他心通由內建構（自觀心生住滅）到由外觀察（觀喜瞋怖畏相知心）終至證悟自他無二</td></tr><tr><td>中觀三透鏡</td><td>透鏡一二諦圓融辨三種天（是什麼）・透鏡二性空無礙打破時空結界（到什麼程度）・透鏡三無我破壁成就他心通（如何圓滿）</td></tr><tr><td>體用不二宗旨</td><td>體是徹底清淨解脫的無漏智慧，用是度化一切眾生的無盡大悲，五通則是體用交會時自然流出的中間區——神通僅是徹悟實相後的自然共振</td></tr></tbody></table><p class="c5p6-note">從「悉是五通」一句經文，論主示範以中觀觀照方法，把任何看似神祕的修行現象還原為可理解可操作可印證的實相結構。<b>性空是瓦解時空結界的直接槓桿</b>：正因時空無自性，無盡大悲與徹悟性空相乘，才能實現量級的無限跳躍。深入經藏，智慧如海——神通從來不是修行的終極追求，僅是清淨體與無盡大悲共振之下自然流出的方便用。</p></div></div>
+<script id="wy-c5p6-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c5p6Btn"),BOX=document.getElementById("c5p6Box"),MODAL=document.getElementById("c5p6Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=5;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#ytFab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c5p6Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C5P6:END-->
 </body></html>
