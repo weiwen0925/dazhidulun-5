@@ -2341,4 +2341,53 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH5P4:END-->
+<!--WY-BH5P5:BEGIN-->
+<style id="wy-bh5p5-css">
+.bh5p5-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh5p5-fabbox.show{display:block;}
+.bh5p5-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh5p5-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh5p5-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh5p5-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh5p5-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh5p5-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh5p5-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh5p5-modal.open{display:flex;}
+.bh5p5-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh5p5-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh5p5-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh5p5-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh5p5-close:hover{background:#dde2e6;}
+.bh5p5-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh5p5-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh5p5-tbl th,.bh5p5-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh5p5-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh5p5-tbl thead th:nth-child(1){width:32%;}.bh5p5-tbl thead th:nth-child(2){width:41%;}.bh5p5-tbl thead th:nth-child(3){width:27%;}
+.bh5p5-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh5p5-guan{background:#eef2f5;color:#37505f;}
+.bh5p5-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh5p5-tbl tbody tr:nth-child(even) td.bh5p5-guan{background:#e8eef2;}
+.bh5p5-tbl b{color:#8b2500;}
+.bh5p5-guan b{color:#2f6b5a;}
+.bh5p5-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh5p5-note b{color:#8b2500;}
+@media(max-width:900px){.bh5p5-fabbox{right:14px;}.bh5p5-tbl{font-size:11px;}.bh5p5-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh5p5-fabbox" id="bh5p5Box"><button class="bh5p5-btn" id="bh5p5Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh5p5-ic">譯</span><span class="bh5p5-ls"><span class="bh5p5-l1">本品 · 原文·白話·中觀</span><span class="bh5p5-l2">白話翻譯表</span></span></button></div><div class="bh5p5-modal" id="bh5p5Modal" role="dialog" aria-modal="true"><div class="bh5p5-card"><button class="bh5p5-close" id="bh5p5Close" type="button" aria-label="關閉">×</button><h3>卷五 · 第5品 白話翻譯表（無礙陀羅尼）</h3><p class="sub">《大智度論》卷五第5品・無礙陀羅尼：承前陀羅尼總說，以三重理由別說無礙陀羅尼——陀羅尼中之至大、唯大菩薩獨有之不共法、自利已具足但欲益彼之利他根本 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh5p5-tbl"><caption>無礙陀羅尼別說三重理由 · 原文｜白話翻譯｜中觀概念（共4段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh5p5-src">問曰：前已說諸菩薩得陀羅尼，今何以復說「得無礙陀羅尼」？</td><td>問：前面已經說過諸位菩薩證得陀羅尼了，現在為什麼又要再說菩薩「證得無礙陀羅尼」呢？</td><td class="bh5p5-guan"><b>設問——重複經文的表面矛盾</b>——此問切中經文表面的重複之處：「得陀羅尼」與「得無礙陀羅尼」二語看似疊床架屋，此問正是要探究論主為何在總說陀羅尼之後，還要特別標舉「無礙」一種，開啟下文三重理由的解答。</td></tr><tr><td class="bh5p5-src">答曰：（一）無礙陀羅尼最大故。如一切三昧中，三昧王三昧最大，如人中之王；如諸解脫中無礙解脫大（丹注云：得佛得道時所得也）。如是一切諸陀羅尼中，無礙陀羅尼大，以是故重說。</td><td>答：第一個理由是，因為無礙陀羅尼是一切陀羅尼之中最為廣大殊勝的。就好比在一切三昧之中，三昧王三昧最為廣大，如同人群中的君王一般；又好比在種種解脫之中，無礙解脫最為廣大（丹本注釋說：這是在證得佛果、成就佛道時所獲得的解脫）。同樣的道理，在一切陀羅尼之中，無礙陀羅尼也是最為廣大殊勝的，正因如此才特別重複宣說。</td><td class="bh5p5-guan"><b>三昧王・無礙解脫・無礙陀羅尼——同構的至極一義</b>——論主以「三昧王三昧」「無礙解脫」兩個菩薩道中已然確立的「至極」概念作類比，說明「無礙陀羅尼」在陀羅尼體系中居於同等的至極地位；三者同構並舉，暗示菩薩道各範疇皆有其「王者」「極致」一項，而此至極之項往往正是通向佛果的樞紐。</td></tr><tr><td class="bh5p5-src">（二）復次，先說諸菩薩得陀羅尼，不知是何等陀羅尼？有小陀羅尼，如轉輪聖王、仙人等所得；聞持陀羅尼、分別眾生陀羅尼、歸命救護不捨陀羅尼；如是等小陀羅尼，餘人亦有。是無礙陀羅尼，外道、聲聞、辟支佛、新學菩薩皆悉不得；唯無量福德智慧大力諸菩薩獨有是陀羅尼，以是故別說。</td><td>第二個理由是，再者，前面說「諸位菩薩證得陀羅尼」，卻不知道究竟是什麼樣的陀羅尼？世間有一些較小的陀羅尼，例如轉輪聖王、仙人等等也能夠證得；像是聞持陀羅尼、分別眾生陀羅尼、歸命救護不捨陀羅尼；像這樣一些較小的陀羅尼，其他人也同樣能夠擁有。但這無礙陀羅尼，外道、聲聞、辟支佛，乃至剛發心修學的新學菩薩，全都無法證得；唯有具足無量福德與智慧、廣大威力的諸位大菩薩才獨獨擁有這種陀羅尼，正因如此才特別分開來說。</td><td class="bh5p5-guan"><b>小陀羅尼與無礙陀羅尼的位階之別</b>——此段以「凡外皆可得的小陀羅尼」與「唯大菩薩獨有的無礙陀羅尼」對舉，劃出一道清晰的修證門檻：轉輪聖王、仙人乃至外道、聲聞、辟支佛、新學菩薩雖各有所得，卻都止步於無礙陀羅尼之外；唯有福德智慧廣大圓滿的大菩薩方能證得，凸顯無礙陀羅尼作為大乘不共法的殊勝地位。</td></tr><tr><td class="bh5p5-src">（三）復次，是菩薩輩自利已具足，但欲益彼，說法教化無盡，以無礙陀羅尼為根本。以是故，諸菩薩常行無礙陀羅尼。</td><td>第三個理由是，再者，這些菩薩自身利益自己的功德已經圓滿具足了，此後只想要利益他人，以無窮無盡的說法教化來度化眾生，而這一切都是以無礙陀羅尼作為根本依憑的。正因如此，諸位菩薩才會恆常修行無礙陀羅尼。</td><td class="bh5p5-guan"><b>自利已具足，但欲益彼——動機的翻轉</b>——此句是全品義理的核心翻轉：菩薩修行無礙陀羅尼，並非為了成就自身尚有所欠缺的功德（自利已然具足），而是純然為了利益他人、無盡說法教化；無礙陀羅尼在此不是「求取」的目標，而是菩薩利他大願得以無窮無盡開展的根本憑藉，呼應般若「無所得而行大悲」之精神。</td></tr></tbody></table><p class="bh5p5-note">本品承接前品陀羅尼總說，以設問「前已說得陀羅尼，今何以復說得無礙陀羅尼」開篇，答以三重理由：其一，無礙陀羅尼如三昧王三昧、無礙解脫，於一切陀羅尼中最為廣大；其二，聞持等小陀羅尼外道凡愚皆可得，無礙陀羅尼則唯大菩薩獨有；其三，菩薩自利已具足，修此陀羅尼純為利他說法教化無盡，是菩薩恆常修行無礙陀羅尼之根本動機。本品原典段落簡短，網頁後續大量章節（智慧福德公式、二諦無礙、八不中道、全品口訣等）均屬編者現代詮釋與圖表化延伸講解、非原典，故不收入白話表；「答曰」與其下三點理由原分為四個 <p> 段落，因首段僅「答曰：」二字無實質內容，為免產生空泛表格列，併入第一理由同列一行，原文字句完整保留、不增不減。中觀關鍵詞：無礙陀羅尼為陀羅尼中之王　唯大菩薩獨有之不共法　自利已具足故純為利他　無所得而行大悲</p></div></div>
+<script id="wy-bh5p5-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh5p5Btn"),BOX=document.getElementById("bh5p5Box"),MODAL=document.getElementById("bh5p5Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=4;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function place(){var z=document.getElementById("c5p5Box"),eb=document.querySelector(".wy-ebox"),b=null;if(z){var r=z.getBoundingClientRect();if(r.height>4)b=Math.round(window.innerHeight-r.top)+8;}if(b===null&&eb){var r2=eb.getBoundingClientRect();if(r2.height>4)b=Math.round(window.innerHeight-r2.top)+8;}if(b!==null)BOX.style.bottom=b+"px";}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh5p5Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH5P5:END-->
 </body></html>
